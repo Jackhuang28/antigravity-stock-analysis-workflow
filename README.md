@@ -19,11 +19,14 @@
 ### 2. 短線掃描
 想要尋找當下有潛力的交易機會時使用：
 ```
-/stock-scan
+/stock-scan [LOCATION/KEYWORD]
 ```
+- **範例**: `/stock-scan Taiwan` 或 `/stock-scan 台股`
 - 掃描當日熱門股、漲幅排行、期權異動
 - 自動過濾低品質標的
-- 生成「短線篩選」報告
+- 生成「短線篩選」報告（會自動優先搜尋目標市場數據）
+  - *美股標準*: 市值 $500M-$20B, IV > 80%
+  - *台股標準*: 市值 NT$30億-3000億, 成交量異常爆發 (>2倍均量)
 
 ### 3. 生成總結報告
 當你分析完多支股票，想要看彙整結果時：
@@ -57,6 +60,7 @@
 | `/catalyst-check` | 僅檢查催化劑 (財報/FDA/合約) | `/catalyst-check RGNX` |
 | `/risk-score` | 僅計算風險評分 | `/risk-score TSLA` |
 | `/entry-exit` | 僅做技術面進出場分析 | `/entry-exit NVDA` |
+| `/long-term-analysis`| 中長期投資深度分析 (基本面/護城河/估值) | `/long-term-analysis 2330.TW` |
 
 ---
 

@@ -28,6 +28,8 @@ Use this when looking for potential trading opportunities:
 - Scans today's hot stocks, top gainers, unusual options activity
 - Automatically filters out low-quality targets
 - Generates a "Short-term Screening" report
+  - *US Standards*: Market Cap $500M-$20B, IV > 80%
+  - *Taiwan Standards*: Market Cap NT$3B-300B, Vol Surge (>2x Avg)
 
 ### 3. Generate Summary Report
 When you've analyzed multiple stocks and want to see aggregated results:
