@@ -61,6 +61,10 @@
 | `/risk-score` | 僅計算風險評分 | `/risk-score TSLA` |
 | `/entry-exit` | 僅做技術面進出場分析 | `/entry-exit NVDA` |
 | `/long-term-analysis`| 中長期投資深度分析 (基本面/護城河/估值) | `/long-term-analysis 2330.TW` |
+| `/budget-scan` | **[NEW]** 小資族低價股篩選 (20/50/100 元以下) | `/budget-scan 50 Taiwan` |
+| `/dividend-scan`| **[NEW]** 穩定存股王篩選 (高殖利率、配息穩定) | `/dividend-scan` |
+| `/export-pdf`   | **[NEW]** 將 Markdown 轉換為高品質 PDF 報告 | `/export-pdf sessions/session_2026-01-21.md` |
+| `/strategy-verify` | **[NEW]** 盤後驗證當日策略有效性 (回測) | `/strategy-verify` |
 
 ---
 
@@ -71,6 +75,7 @@
     - 選出 3-5 支有興趣的標的
     - 對每支標的跑 `/full-analysis`
     - 最後跑 `/summary` 做成當日日報
+    - 收盤後跑 `/strategy-verify` 驗證策略成效
 
 2. **重點關注**:
     - **PDUFA/財報**: 善用 `/catalyst-check` 確保日期準確，生技股二元事件風險大。
